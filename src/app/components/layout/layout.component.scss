@@ -1,0 +1,26 @@
+.layout {
+  min-height: 100vh;
+
+  &__sidenav-container {
+    min-height: 100vh;
+  }
+
+  &__sidenav {
+    width: 250px;
+    padding: 16px;
+  }
+
+  &__sidenav-content {
+    padding: 16px;
+  }
+
+  &__sidenav {
+    &-btn {
+      &-login {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+      }
+    }
+  }
+}

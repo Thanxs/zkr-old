@@ -1,0 +1,20 @@
+.login {
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-btn {
+      transition: transform 0.15s ease-out;
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  &__form {
+    &-field {
+      width: 100%;
+    }
+  }
+}

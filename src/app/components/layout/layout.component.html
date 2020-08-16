@@ -1,0 +1,21 @@
+<div class="layout">
+  <mat-sidenav-container class="layout__sidenav-container">
+    <mat-sidenav class="layout__sidenav" [(opened)]="opened">
+      <ul class="layout__sidenav-list">
+        <li class="layout__sidenav-item">Lorem ipsum dolor sit amet.</li>
+        <li class="layout__sidenav-item">Lorem ipsum dolor sit amet, consectetur.</li>
+        <li class="layout__sidenav-item">Lorem ipsum dolor sit.</li>
+        <li class="layout__sidenav-item">Lorem ipsum dolor.</li>
+        <li class="layout__sidenav-item">Lorem ipsum dolor sit amet, consectetur.</li>
+      </ul>
+    </mat-sidenav>
+    <mat-sidenav-content class="layout__sidenav-content">
+      <button class="layout__sidenav-btn" mat-fab (click)="opened = !opened">
+        <mat-icon>read_more</mat-icon>
+      </button>
+      <button class="layout__sidenav-btn layout__sidenav-btn-login" mat-fab (click)="openLoginForm()">
+         Войти
+      </button>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
